@@ -1,0 +1,77 @@
+nav {
+    position: absolute;
+    border: solid 2px;
+    border-color: black;
+    background-color: mediumspringgreen;
+    width: 90%;
+    height: 30%;
+    left: 3%;
+    padding: 2%;
+}
+ input {
+     display: block;
+     margin-bottom: 2%;
+
+ }
+
+ input.enable {
+     color: thistle;
+
+ }
+
+
+img.suma {
+    position: absolute;
+    top: 3%;
+    left: 20%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+
+
+}
+
+img.resta {
+
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    
+}
+
+img.multiplica {
+
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+
+}
+
+img.divide {
+
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

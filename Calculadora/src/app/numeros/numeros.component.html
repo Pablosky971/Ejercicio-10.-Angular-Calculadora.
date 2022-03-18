@@ -1,0 +1,19 @@
+<nav>
+<form class="numeros">
+  <label for="numero1"> Primer número </label>
+  <input type="number" name="numero1" min="0" step="1" [(ngModel)]="numero1" required>
+  <label for="numero2">Segundo número </label>
+  <input type="number" name="numero2" min="0" step="1" [(ngModel)]="numero2" required>
+
+  <div class="botones">
+  <a (click)="suma(numero1,numero2)" class="suma"><img src="assets/img/suma.png" alt="Pulsa aquí si quiere sumar" class="suma"></a>
+  <a (click)="resta(numero1,numero2)" class="resta"><img src="assets/img/resta.png"  alt="Pulsa aquí si quiere restar" class="resta"></a>
+  <a (click)="multiplica(numero1,numero2)" class="multiplica"><img src="assets/img/multiplicar.png"  alt="Pulsa aquí si quiere multiplicar" class="multiplica"></a>
+  <a (click)="divide(numero1,numero2)" class="divide"><img src="assets/img/dividir.png"  alt="Pulsa aquí si quiere dividir" class="divide"></a>
+</div>
+
+  <label for="solucion"> Solución </label>
+  <input type="text" name="solucion" value="{{solucion}}">
+
+</form>
+</nav>
